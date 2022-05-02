@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    min-height: 100vh;
+
+
+}
+
+.grey-bg {  
+    background-color: #F5F7FA;
+}
+
+
+
+.formulario {
+    display: flex;
+}
+
+.form-container {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: translate(-50%, -50%);
+
+}
+
+/* Almoço */
+.textref {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.333333px;
+
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/* 95 */
+.indice {
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+letter-spacing: -0.333333px;
+margin-left: 100px;
+
+color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 350px;
+
+    padding: 10px;
+}
+
+.success-message {
+    font-family: "Roboto", sans-serif;
+    background-color: #3f89f8;
+    padding: 15px;
+    color: white;
+}
+
+.datalocal{
+/* 10/02/2022 */
+
+margin-left: 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 27px;
+letter-spacing: -0.333333px;
+
+color: rgba(0, 0, 0, 0.3);
+
+
+}
+
+.refeicao{
+    margin-left: 10px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.333333px;
+
+color: rgba(0, 0, 0, 0.3);
+
+
+}
+
+.ladoesquerdo{
+    width: 150px;
+    display: inline-block;
+}
+.form-field {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.tituloIcon {
+    margin-top: 10px;
+}
+
+.card {
+    text-align: start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 80px;
+    
+
+
+}
+
+.cardlocal{
+    /* 95 */
+
+    position: absolute;
+    left: 50.13%;
+    right: 36.53%;
+    top: 29.59%;
+    bottom: 34.69%;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.333333px;
+
+    color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+span {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+input {
+    background: #f2f2f2;
+
+}
+
+.titulo {
+
+    background: #3f89f8;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 0px;
+    height: 35px;
+    border-left-width: 10px;
+
+
+}
+
+.margemb {
+    position: absolute;
+    bottom: 0;
+    background-color: #3f89f8;
+    color: #FFF;
+    width: 100%;
+    height: 40px;    
+    text-align: center;
+    line-height: 100px;
+
+
+}
+
+
+.error {
+    border-style: solid;
+    border: 2px solid #ffa4a4;
+}
+
+button {
+    background: #3f89f8;
+    cursor: pointer;
+    flex: 1;
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
+    height: 60px;
+
+
+}
+
+button:disabled {
+    cursor: default;
+}
